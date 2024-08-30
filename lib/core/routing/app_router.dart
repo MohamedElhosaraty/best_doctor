@@ -1,5 +1,6 @@
 import 'package:best_doctor/core/di/dependency_injection.dart';
 import 'package:best_doctor/core/routing/routes.dart';
+import 'package:best_doctor/feature/home/ui/home_screen.dart';
 import 'package:best_doctor/feature/login/logic/cubit/login_cubit.dart';
 import 'package:best_doctor/feature/login/ui/login_screen.dart';
 import 'package:best_doctor/feature/onboarding/onboarding_screen.dart';
@@ -20,6 +21,10 @@ class AppRouter {
                 create: (context) => getIt<LoginCubit>(),
                 child: const LoginScreen(),
               ),
+        );
+      case Routes.homeScreen:
+        return MaterialPageRoute(
+          builder: (_) => const HomeScreen(),
         );
       default:
         return MaterialPageRoute(
