@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "238148423303",
+    "project_id": "doctor-app-8fa21",
+    "storage_bucket": "doctor-app-8fa21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238148423303:android:656425f93fdd0bfcf07222",
+        "android_client_info": {
+          "package_name": "com.doctorapp.bestdoctor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2erLoBC44wAxfwIw1efL6sYPp5yxpPtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
