@@ -29,8 +29,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace = "com.best_doctor.best_doctor"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion "25.1.8937393"
+    compileSdk 34//= flutter.compileSdkVersion
+    ndkVersion "26.1.10909125"
    // ndkVersion = flutter.ndkVersion
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
