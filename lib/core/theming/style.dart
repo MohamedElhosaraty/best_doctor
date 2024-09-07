@@ -28,8 +28,20 @@ class TextStyles {
     fontWeight: FontWeightHelper.regular,
   );
 
+  static TextStyle font12BlueRegular = TextStyle(
+    fontSize: 12.sp,
+    color: ColorsManger.mainBlue,
+    fontWeight: FontWeightHelper.regular,
+  );
+
   static TextStyle font13DarkBlueRegular = TextStyle(
     fontSize: 13.sp,
+    color: ColorsManger.dartBlue,
+    fontWeight: FontWeightHelper.regular,
+  );
+
+  static TextStyle font12DarkBlueRegular = TextStyle(
+    fontSize: 12.sp,
     color: ColorsManger.dartBlue,
     fontWeight: FontWeightHelper.regular,
   );
@@ -38,6 +50,12 @@ class TextStyles {
     fontSize: 18.sp,
     color: ColorsManger.dartBlue,
     fontWeight: FontWeightHelper.bold,
+  );
+
+  static TextStyle font18DarkBlueSemiBold = TextStyle(
+    fontSize: 18.sp,
+    color: ColorsManger.dartBlue,
+    fontWeight: FontWeightHelper.semiBold,
   );
 
   static TextStyle font14DartBlueMedium = TextStyle(
@@ -107,9 +125,23 @@ class TextStyles {
     fontWeight: FontWeightHelper.regular,
   );
 
+  static TextStyle font12GrayMedium = TextStyle(
+    fontSize: 12.sp,
+    color: Colors.grey,
+    fontWeight: FontWeightHelper.medium,
+  );
+
+
 
   static TextStyle font16WhiteMedium = TextStyle(
     fontSize: 16.sp,
+    color: Colors.white,
+    fontWeight: FontWeightHelper.medium,
+  );
+
+
+  static TextStyle font18WhiteMedium = TextStyle(
+    fontSize: 18.sp,
     color: Colors.white,
     fontWeight: FontWeightHelper.medium,
   );
