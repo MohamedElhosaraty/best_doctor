@@ -4,6 +4,8 @@ import 'package:best_doctor/core/theming/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'core/helper/constants.dart';
+
 class DoctorApp extends StatelessWidget {
   final AppRouter appRouter;
 
@@ -16,7 +18,7 @@ class DoctorApp extends StatelessWidget {
         minTextAdapt: true,
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          initialRoute: Routes.onBoardingScreen,
+          initialRoute: isLoggedInUser? Routes.homeScreen: Routes.loginScreen,
           title: 'DoctorApp',
           theme: ThemeData(
             primaryColor: ColorsManger.mainBlue,
