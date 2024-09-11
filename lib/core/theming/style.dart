@@ -39,6 +39,11 @@ class TextStyles {
     color: ColorsManger.dartBlue,
     fontWeight: FontWeightHelper.regular,
   );
+  static TextStyle font14DarkBlueBold = TextStyle(
+    fontSize: 14.sp,
+    color: ColorsManger.dartBlue,
+    fontWeight: FontWeightHelper.bold,
+  );
 
   static TextStyle font12DarkBlueRegular = TextStyle(
     fontSize: 12.sp,
