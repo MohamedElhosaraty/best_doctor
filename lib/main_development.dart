@@ -18,7 +18,7 @@ void main() async {
   ));
 }
 
-// dart run build_runner build --delete-conflicting-outputs
+// flutter pub run build_runner build --delete-conflicting-outputs
 
 //1//039wBQC4Sr8-JCgYIARAAGAMSNwF-L9IrvbmfEGOFjVBKEekGCiH1FQr2fit21_XDYXmXWR1t1iKZCt7BYLWKlB52BYXmrse8QiQ
 
