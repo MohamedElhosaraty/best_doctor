@@ -48,18 +48,18 @@ android {
         versionName = flutterVersionName
     }
 
-//    flavorDimensions "default"
-//    productFlavors {
-//        production {
-//            dimension "default"
-//            resValue "string", "app_name", "Best Doctor Production"
-//        }
-//        development {
-//            dimension "default"
-//            applicationIdSuffix ".dev"
-//            resValue "string", "app_name", "Best Doctor Development"
-//        }
-//    }
+    flavorDimensions "default"
+    productFlavors {
+        production {
+            dimension "default"
+            resValue "string", "app_name", "Best Doctor Production"
+        }
+        development {
+            dimension "default"
+            applicationIdSuffix ".dev"
+            resValue "string", "app_name", "Best Doctor Development"
+        }
+    }
 
     buildTypes {
         release {
